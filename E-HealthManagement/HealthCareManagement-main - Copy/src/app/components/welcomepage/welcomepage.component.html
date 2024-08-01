@@ -1,0 +1,199 @@
+<div class="content-section">
+  <div class="top-header" id="top-header">
+    <div class="navigation">
+      <label></label>
+      <div class="menu-buttons">
+        <button class="btn-home" id="btn-home" [routerLink]="['']">
+          <i class="fa fa-home"></i> Home
+        </button>
+        <button
+          class="btn-services"
+          id="btn-services"
+          onclick="location.href='#services';"
+        >
+          <i class="fa fa-cog"></i> Services
+        </button>
+        <button class="btn-login" id="btn-login" [routerLink]="['/login']">
+          <i class="fa fa-sign-in"></i> LOGIN
+        </button>
+        <button
+          class="btn-create-account"
+          id="btn-create-account"
+          [routerLink]="['/registration']"
+        >
+          <i class="fa fa-user-plus"></i> CREATE ACCOUNT
+        </button>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="intro-text">
+        <h1 style="margin-left: -5%">E-Health Management System</h1>
+        <br />
+      </div>
+      <br />
+      <img
+        class="floating-image"
+        id="floating-image"
+        [src]="'assets/img/healthcaresystem.png'"
+      />
+    </div>
+  </div>
+  <br />
+</div>
+<br /><br />
+<marquee class="notification-bar" direction="left"
+  ><i class="fa fa-bell"></i> Empowering Health, Enriching Lives: Where
+  Compassionate Care and Cutting-Edge Innovation Come Together to Deliver
+  Excellence in Every Aspect of Your Healthcare Journey.</marquee
+>
+
+<main id="main-content">
+  <section id="services" class="services-section section-background">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2 style="font-family: aladin">
+          Three Different Logins with New Registration
+        </h2>
+      </div>
+      <div class="login-options">
+        <div
+          class="login-detail"
+          (click)="navigate()"
+          style="background-color: rgb(238, 236, 138)"
+        >
+          <h2
+            style="
+              font-weight: bolder;
+              font-size: 35px;
+              font-family: aladin;
+              margin-top: 5%;
+              color: rgb(7, 46, 49);
+            "
+          >
+            Admin Login
+          </h2>
+          <div
+            class="login-icon"
+            style="border-radius: 50%; background-color: white; padding: 10%"
+          >
+            <img [src]="'assets/img/admin.png'" width="130" height="130" />
+          </div>
+        </div>
+        <div
+          class="login-detail"
+          (click)="navigate()"
+          style="background-color: rgb(238, 236, 138)"
+        >
+          <h2
+            style="
+              font-weight: bolder;
+              font-size: 35px;
+              font-family: aladin;
+              margin-top: 5%;
+              color: rgb(7, 46, 49);
+            "
+          >
+            Doctor Login
+          </h2>
+          <div
+            class="login-icon"
+            style="border-radius: 50%; background-color: white; padding: 10%"
+          >
+            <img [src]="'assets/img/maledoctor.png'" width="130" height="130" />
+          </div>
+        </div>
+        <div
+          class="login-detail"
+          (click)="navigate()"
+          style="background-color: rgb(238, 236, 138)"
+        >
+          <h2
+            style="
+              font-weight: bolder;
+              font-size: 35px;
+              font-family: aladin;
+              margin-top: 5%;
+              color: rgb(7, 46, 49);
+            "
+          >
+            User Login
+          </h2>
+          <div
+            class="login-icon"
+            style="border-radius: 50%; background-color: white; padding: 10%"
+          >
+            <img [src]="'assets/img/maleuser.png'" width="130" height="130" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Feature Section -->
+  <section id="features" class="features-section">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2 style="font-family: aladin">Our Features</h2>
+      </div>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <img [src]="'assets/img/booking.jpg'" width="250" height="250" />
+          </div>
+          <h3>Booking Appointment</h3>
+          <p>Book appointments with our expert doctors at your convenience.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <img [src]="'assets/img/doctor.jpg'" width="250" height="250" />
+          </div>
+          <h3>Our Doctors</h3>
+          <p>Meet our team of experienced and specialized doctors.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <img
+              [src]="'assets/img/prescription.jpg'"
+              width="250px"
+              height="250px"
+            />
+          </div>
+          <h3>Prescription</h3>
+          <p>Get your prescriptions online, directly from our doctors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New About Us Section -->
+  <section id="about-us" class="about-us-section">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2 style="font-family: aladin">About Us</h2>
+      </div>
+      <div class="about-us-content">
+        <div class="about-us-text">
+          <p>
+            Welcome to our E-Health Management System. We are dedicated to
+            providing comprehensive healthcare solutions with the help of modern
+            technology. Our platform connects patients, doctors, and healthcare
+            providers, ensuring a seamless and efficient healthcare experience.
+          </p>
+          <p>
+            Our mission is to improve healthcare accessibility and quality by
+            leveraging innovative technologies and providing exceptional
+            services. Whether you need to book an appointment, consult with a
+            doctor, or access your medical records, our system is designed to
+            meet all your healthcare needs.
+          </p>
+          <p>Join us in our journey towards a healthier future.</p>
+        </div>
+        <div class="about-us-image">
+          <img [src]="'assets/img/About.jpg'" alt="About Us" />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<app-footer></app-footer>

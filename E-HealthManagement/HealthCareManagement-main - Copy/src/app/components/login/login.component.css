@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import '~font-awesome/css/font-awesome.css';
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Merienda+One&family=Staatliches&display=swap');
+
+.container
+{
+    max-width: 450px;
+    padding: 3px 40px 40px 40px;
+    margin-top: 2%; 
+    margin-bottom: 3%; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 35px 8px rgb(147, 158, 147); 
+    border-top: 8px solid rgb(6, 50, 53); 
+    background-color: white;
+}
+input{
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.textual
+{
+    color: rgb(64, 85, 15); 
+    text-align: center; 
+    margin-top: -20px;
+    font-family: 'Aladin', cursive;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.loginbtn
+{
+    background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: auto;  
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.loginbtn:hover
+{
+    background-color: rgb(23, 78, 78);
+    padding-left: 7%;
+    padding-right: 7%;
+    cursor: pointer;
+    color: white;
+}
+.fa-google{
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fa-linkedin
+{
+    background: #0e76a8;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fa-windows
+{
+    background: conic-gradient(from -90deg, #F65314 90deg,  #7CBB00 90deg 180deg, #FFBB00 90deg 270deg, #00A1F1 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fa-twitter
+{
+    background-color: #1DA1F2;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fa-github
+{
+    background-color: #333;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.fa-google:hover, .fa-linkedin:hover, .fa-windows:hover, .fa-github:hover, .fa-twitter:hover
+{
+    font-size:2.5em;
+  transition: 1s ease-out;
+}
+
+.headbtn1, .headbtn2, .headbtn3{
+    border: none;
+    padding: 2% 20px 2% 20px;
+    width: 122px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: 0px;
+}
+.headbtn1:hover, .headbtn2:hover, .headbtn3:hover{
+    background-color: rgb(223, 231, 184);
+}
+
+.headbtn1{
+    margin-top: -40%;
+    margin-bottom: 10%;
+}
+
+
+/* //h */
+.top-header h5 {
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 19%;
+    background: none;
+    text-transform: uppercase;
+    color: rgb(141, 214, 46);
+}
+
+.top-header h5 span {
+    font-family: 'Fjalla One', sans-serif;
+    background: none;
+    color: orange;
+}
+
+.navigation label {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Skranji', cursive;
+}
+
+.navigation label:hover {
+    cursor: pointer;
+}
+
+.navigation label img {
+    height: 50px;
+    width: 80px;
+}
+
+.notification-bar {
+    color: rgb(10, 58, 52);
+    font-size: 18px;
+    font-style: bold;
+    font-family: roboto;
+    padding: 10px;
+    margin-top: -2%;
+    background-color: #b7f0f1;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover {
+    opacity: 0.9;
+    background: linear-gradient(to bottom, #00ccff 0%, #3399ff 100%);
+}
+
+#btn-active {
+    margin-right: 10px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#btn-active:hover {
+    background: linear-gradient(to top, #ff9933 0%, #ff6600 100%);
+    transform: scale(1.0) perspective(5px);
+    border-radius: 20px;    
+    cursor: pointer;
+}
+
+#btn-create-account {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+#btn-create-account:hover {
+    padding: 6px 15px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1.0) perspective(5px);
+}
+
+#btn-create-account:active {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+#btn-login {
+    color: #fff;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 15px;
+    outline: none;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+#btn-login:hover {
+    padding: 6px 15px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1.0) perspective(5px);
+}
+
+#btn-login:active {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.section-background {
+    padding-top: 25px;
+    margin-bottom: 5px;
+    background-color: #f0fcfb;
+    box-shadow: 1px 1px 18px #888888;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+
+.section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+.container {
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+	padding-bottom: 20px;
+}
+
+.login-options {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 60px;
+    margin-bottom: 80px;
+	margin-left: 90px;
+
+
+}
+
+.login-options h2 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.login-detail {
+    height: 310px;
+    width: 320px;
+    display: flex;
+    margin-right: 15px;
+    flex-direction: column;
+    align-items: center;
+    transition: transform .4s;
+    background-color: white;
+    padding: 10px 20px 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0.1px 4px 8px 2px rgba(0,0,0,0.2);
+}
+
+.login-detail:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.login-icon {
+    border-radius: 50%; 
+    background-color: white; 
+    padding: 10%;
+}
+
+#btn-home, #btn-services, #btn-login, #btn-create-account {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1s ease;
+    transform: scale(1);
+}
+
+#btn-home:hover, #btn-services:hover, #btn-login:hover, #btn-create-account:hover {
+    padding: 6px 15px;
+    background: linear-gradient(to bottom, #ff9933 0%, #ff6600 100%);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1.0) perspective(5px);
+}
+
+#btn-home:active, #btn-services:active, #btn-login:active, #btn-create-account:active {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.top-header {
+    background-color: #0b3c3f;
+    position: relative;
+    height: 90px;
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}

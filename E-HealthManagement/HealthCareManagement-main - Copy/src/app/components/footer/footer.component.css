@@ -1,0 +1,58 @@
+#hospital-footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+#hospital-footer .text-uppercase {
+    text-transform: uppercase;
+}
+
+#hospital-footer .fw-bold {
+    font-weight: bold;
+}
+
+#hospital-footer .text-reset {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+#hospital-footer .text-reset:hover {
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+#hospital-footer .social-icons a {
+    color: #f8f9fa;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+#hospital-footer .social-icons a:hover {
+    color: #adb5bd;
+}
+
+#hospital-footer .social-btn {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+#hospital-footer .social-btn:hover {
+    transform: scale(1.1);
+}
+
+#hospital-footer .social-btn i {
+    color: white;
+}
+
+#hospital-footer .container {
+    max-width: 900px;
+}
+
+#hospital-footer h6 {
+    margin-bottom: 1.5rem;
+}
+
+#hospital-footer p {
+    margin-bottom: 0.5rem;
+}

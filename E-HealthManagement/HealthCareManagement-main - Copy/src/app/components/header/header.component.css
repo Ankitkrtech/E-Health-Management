@@ -1,0 +1,149 @@
+/*  
+  .sidebar-logo {
+    padding: 10px 15px 10px 30px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #0d0a35;
+    width: 100%;
+  }
+  ::ng-deep .navCss nav
+  {
+    background-color: #0d0a35; 
+    color: white;
+    font-weight: 600;
+  }
+  #nav-link:hover{
+    cursor: pointer;
+    background-color: #23ad9b;
+    padding: 5px 8px 5px 8px;
+    border-radius: 15px;
+  }
+  .dropdown-item:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    background-color: #e2e2e2;
+  }
+  .logoutbtn{
+    border: none;
+    background:transparent;
+    color: white;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: small;
+  }
+  .logoutbtn:hover{
+    cursor: pointer;
+    background-color: #23ad9b;
+    padding: 5px 8px 5px 8px;
+    border-radius: 15px;
+  } */
+
+  /* new */
+
+  /* Custom styles for the modified navbar */
+
+/* .custom-sidebar-logo {
+  padding: 10px 15px 10px 30px;
+  font-size: 20px;
+  text-align: right;
+  background-color: #004d40; 
+  width: 100%;
+}
+
+::ng-deep .customNavCss nav {
+  background-color: #004d40;
+  color: white;
+  font-weight: 600;
+}
+
+#custom-nav-link:hover {
+  cursor: pointer;
+  background-color: #80cbc4; 
+  padding: 5px 8px 5px 8px;
+  border-radius: 15px;
+}
+
+.custom-dropdown-item:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: 300;
+  background-color: #b2dfdb; 
+}
+
+.custom-logoutbtn {
+  border: none;
+  background: transparent;
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: small;
+}
+
+.custom-logoutbtn:hover {
+  cursor: pointer;
+  background-color: #80cbc4;
+  padding: 5px 8px 5px 8px;
+  border-radius: 15px;
+} */
+
+/* new2 */
+
+/* Custom styles for the modified navbar */
+
+/* Custom styles for the modified navbar */
+
+.custom-sidebar {
+  padding: 10px 15px 10px 30px;
+  font-size: 20px;
+  text-align: right;
+  background-color: #1b5e20; /* Dark Green */
+  width: 100%;
+}
+
+::ng-deep .uniqueNavBar nav {
+  background-color: #1b5e20; /* Dark Green */
+  color: white;
+  font-weight: 600;
+}
+
+.hover-shadow {
+  position: relative;
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.hover-shadow:hover {
+  cursor: pointer;
+  background-color: #66bb6a; /* Light Green */
+  padding: 5px 8px 5px 8px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-dropdown-item:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: 300;
+  background-color: #a5d6a7; /* Lighter Green */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-signoutbtn {
+  border: none;
+  background: transparent;
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: small;
+}
+
+.custom-signoutbtn:hover {
+  cursor: pointer;
+  background-color: #66bb6a; /* Light Green */
+  padding: 5px 8px 5px 8px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
